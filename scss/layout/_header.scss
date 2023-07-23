@@ -4,15 +4,14 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .first__header{
-    display: ;
-  }
+
   .header {
     display: flex;
     flex-direction: column;
     background-image: url("../../images/svg/home-decor.svg");
     background-repeat: no-repeat;
     background-position: left -100px top 133px;
+   
     .header__decoration-img {
       position: absolute;
   
@@ -103,4 +102,11 @@
       z-index: -1;
     }
   }
-  
+    .header-middle__p{
+    color: #d9d9d9;;
+font-family: Space Grotesk;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+  }
